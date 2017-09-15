@@ -20,7 +20,7 @@ import static com.sysacad.repositorios.PersonaRepositorio.repositorioPersona;
 public class AlumnoController {
 
 
-	//probando cambios
+
     @PostMapping("/alumno")
     ResponseEntity<Alumno> crearAlumno(@RequestBody Alumno alumno,
                                        @RequestHeader int legajoUsuario,
